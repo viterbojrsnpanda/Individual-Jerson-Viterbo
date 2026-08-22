@@ -22,10 +22,10 @@ public class Activity2_Viterbo {
         remainingBalance = income - foodAllowance - transportation - rent - utilityBill;
 
         System.out.printf("Income: %.0f %n" , income);
-        System.out.printf("Food Allowance in percentage: %.1f %% %n", percentFoodAllowance);
-        System.out.printf("Transportation in percentage: %.1f %% %n", percentTransportation);
-        System.out.printf("Rent in percentage: %.1f %% %n",percentRent);
-        System.out.printf("Utility Bill in percentage: %.1f %% %n", percentUtilityBill);
+        System.out.printf("Food Allowance: %.1f %% %n", percentFoodAllowance);
+        System.out.printf("Transportation: %.1f %% %n", percentTransportation);
+        System.out.printf("Rent: %.1f %% %n",percentRent);
+        System.out.printf("Utility Bill: %.1f %% %n", percentUtilityBill);
 
         System.out.printf("Remaining Balance: %.0f" , remainingBalance);
     }
